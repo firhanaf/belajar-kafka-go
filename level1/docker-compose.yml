@@ -9,7 +9,7 @@ services:
 
 
   kafka:
-    image: confluentinc/cp-kafka:7.5.0git
+    image: confluentinc/cp-kafka:7.5.0
     ports:
       - "9092:9092"
     environment:
